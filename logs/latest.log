@@ -1,0 +1,15 @@
+[28.10.2026 22:51:33] INFO · plugin.example_plugin  Пример плагина подключён
+[28.10.2026 22:51:38] INFO · orca.plugins  Плагин подключён: Пример плагина v1.0
+[28.10.2026 22:51:39] INFO · orca.telegram  Telegram бот запущен: @OrcaPlayerokBot
+[28.10.2026 22:51:39] INFO · orca.playerok  Авторизован на Playerok как Hdjhd
+[28.10.2026 22:51:39] INFO · orca  Orca запущена. Управление — через Telegram (/menu).
+[28.10.2026 22:51:39] INFO · playerokapi.listener  Время запуска слушателя событий: 2026-10-28T19:51:39.738620+00:00 
+[28.10.2026 22:53:08] INFO · orca.telegram  Новый пользователь Telegram: 5768912217
+[28.10.2026 22:54:05] ERROR · aiogram.dispatcher  Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [WinError 64] The specified network name is no longer available
+[28.10.2026 22:54:05] WARNING · aiogram.dispatcher  Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 9193667808)
+[28.10.2026 22:54:27] ERROR · aiogram.dispatcher  Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The semaphore timeout period has expired]
+[28.10.2026 22:54:27] WARNING · aiogram.dispatcher  Sleep for 1.354647 seconds and try again... (tryings = 1, bot id = 9193667808)
+[28.10.2026 22:54:50] ERROR · aiogram.dispatcher  Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The semaphore timeout period has expired]
+[28.10.2026 22:54:50] WARNING · aiogram.dispatcher  Sleep for 1.668830 seconds and try again... (tryings = 2, bot id = 9193667808)
+[28.10.2026 22:55:12] ERROR · aiogram.dispatcher  Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The semaphore timeout period has expired]
+[28.10.2026 22:55:12] WARNING · aiogram.dispatcher  Sleep for 2.201137 seconds and try again... (tryings = 3, bot id = 9193667808)

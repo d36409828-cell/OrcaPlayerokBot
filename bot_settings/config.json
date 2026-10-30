@@ -1,0 +1,71 @@
+{
+    "playerok": {
+        "api": {
+            "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxZWQ4ZDljOC01NzkzLTYwODAtNmI5ZC02NTgzZjEwNWVjZjMiLCJpZGVudGl0eSI6IjFlZDhkOWNjLTE0YjUtNmUzMC1hZDdlLTEwYmNjZGNhYWE4MCIsInJvbGUiOiJVU0VSIiwic2lkIjoiMDFhMTUwODAtZTUwMS03ZmVhLWJjMWYtNDFiMzI2OWJjZTg4IiwicmV2IjoxLCJ2IjoxLCJpYXQiOjE3OTIzNTE5ODYsImV4cCI6MTgyMzg4Nzk4NSwianRpIjoiM2EyODZmNDEtMjJiYi00NTY3LWIxZTgtOTc5MGUyNTI4M2E0In0.xbnJJ1nxyflB73UDt27LOgd45ZcQa6J8p0uUoLHpIh4",
+            "cookies": "token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxZWQ4ZDljOC01NzkzLTYwODAtNmI5ZC02NTgzZjEwNWVjZjMiLCJpZGVudGl0eSI6IjFlZDhkOWNjLTE0YjUtNmUzMC1hZDdlLTEwYmNjZGNhYWE4MCIsInJvbGUiOiJVU0VSIiwic2lkIjoiMDFhMTUwODAtZTUwMS03ZmVhLWJjMWYtNDFiMzI2OWJjZTg4IiwicmV2IjoxLCJ2IjoxLCJpYXQiOjE3OTIzNTE5ODYsImV4cCI6MTgyMzg4Nzk4NSwianRpIjoiM2EyODZmNDEtMjJiYi00NTY3LWIxZTgtOTc5MGUyNTI4M2E0In0.xbnJJ1nxyflB73UDt27LOgd45ZcQa6J8p0uUoLHpIh4",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+            "proxy": "",
+            "requests_timeout": 10,
+            "listener_requests_delay": 4
+        },
+        "watermark": {
+            "enabled": true,
+            "value": "🐋 Orca Playerok Bot"
+        },
+        "read_chat": {
+            "enabled": true
+        },
+        "first_message": {
+            "enabled": false
+        },
+        "custom_commands": {
+            "enabled": true
+        },
+        "auto_deliveries": {
+            "enabled": true
+        },
+        "auto_complete_deals": {
+            "enabled": true,
+            "all": true
+        },
+        "auto_restore_items": {
+            "enabled": false,
+            "all": true
+        },
+        "auto_raise_items": {
+            "enabled": false,
+            "all": true,
+            "interval_hours": 24.0
+        },
+        "tg_logging": {
+            "enabled": false,
+            "events": {
+                "new_user_message": true,
+                "new_system_message": false,
+                "new_deal": true,
+                "new_review": true,
+                "new_problem": true,
+                "deal_status_changed": true
+            }
+        }
+    },
+    "telegram": {
+        "api": {
+            "token": "9193667808:AAG_rihvTqKlOiOj5gq9IxyxiO4q4GHUlaY",
+            "mode": "",
+            "proxy": "",
+            "custom_api_url": ""
+        },
+        "bot": {
+            "password_hash": "bd377eb744adcced58c70089267b7aec6a2c9a63b7b8cdb682ca6dd67dbe70d0",
+            "signed_users": [
+                5768912217
+            ]
+        }
+    },
+    "plugins": {
+        "disabled": [
+            "example_plugin"
+        ]
+    }
+}
